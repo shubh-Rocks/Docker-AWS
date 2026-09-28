@@ -1,0 +1,41 @@
+# --- Dependencies ---
+node_modules/
+jspm_packages/
+vendor/
+
+# --- Environment & Secrets (Sabse Zaroori) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Build & Output Files ---
+dist/
+build/
+out/
+.next/
+public/build/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs & Debug ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# --- Editor & IDE Settings ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
