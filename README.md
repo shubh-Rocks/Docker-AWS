@@ -2,7 +2,7 @@
 
 A small real-time collaborative code editor built as a hands-on project for learning Docker and AWS. The React/Vite frontend is built into a Node.js/Express image, while Socket.IO and Yjs handle live editor collaboration.
 
-**Project:** [github.com/shubh-Rocks/Docker-AWS](shubh-docker-aws-977622643.ap-northeast-1.elb.amazonaws.com)
+**Project:** [http://shubh-docker-aws-977622643.ap-northeast-1.elb.amazonaws.com]
 
 ## Screenshot
 
@@ -33,8 +33,6 @@ From the repository root:
 docker build -f dockerfile -t collaborative-editor:local .
 docker run --rm --name collaborative-editor -p 3100:3100 collaborative-editor:local
 ```
-
-Open [http://localhost:3100](http://localhost:3100). Check the backend health endpoint with:
 
 ```bash
 curl http://localhost:3100/health
